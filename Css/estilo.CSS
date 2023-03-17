@@ -1,0 +1,92 @@
+h1{
+    color:rgb(182, 47, 110);
+    border: 0.1rem dotted rgb(177, 55, 126);
+}
+h1#page1{
+    color:rgb(156, 36, 96);
+}
+h1#page2{
+    color: rgb(192, 87, 169);
+}
+h2, h3, h4, h5, h6{
+    display: none;
+}
+body ul li{
+    color:rgb(199, 22, 81) ;
+}
+p{
+    text-decoration: underline rgb(248, 245, 248) double 0.1rem;
+    text-indent: 1rem;
+    text-align: center;
+}
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: rgb(199, 28, 108) ;
+    font: cursive small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(196, 84, 84), 0 0 2rem rgb(187, 64, 146), 0 0 2rem rgb(221, 12, 141);
+}
+a:link, a:visited,a:active{
+    text-decoration: none;
+    color:rgb(190, 36, 196);
+}
+a:hover{
+    color:rgb(68, 8, 23);
+}
+footer {
+    clear: both;
+    background:rgb(253, 250, 252) url("../img/varinha.jpg") no-repeat left top;
+    height: 1080px;
+}
+div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: rgb(221, 155, 218);
+    color: rgb(36, 28, 36);
+    border: 0.2rem solid rgb(12, 11, 11);
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+h1#page1{
+    color:rgb(184, 97, 176);
+    border: 0.3rem dashed palevioletred;
+}
+img{
+    width: 20rem;
+}
+ul {
+    list-style-type: square;
+}
+h1.page2{
+    color: rgb(173, 144, 169);
+    border: 1rem groove rgb(168, 22, 107);
+    border-radius: 0.7rem;
+}
+ol{
+    list-style-type: upper-roman;
+}
+section img{
+    float: left
+}
+main.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+main.flexbox{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article{
+    background-color: rgb(219, 22, 104);
+    margin: 1rem;
+    padding: 2rem;
+}
